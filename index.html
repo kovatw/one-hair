@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>弌髮廊 One Hair Salon｜台中北區 燙髮・霧感髮色</title>
+<meta name="description" content="弌髮廊 One Hair Salon 位於台中市北區青島西街，提供燙髮、霧感髮色與剪髮服務。可用電話或官方 LINE 預約。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1816'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23b85c38' font-family='serif'%3E弌%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3ec;--bg2:#efe8dc;--ink:#1a1816;--terra:#b85c38;--terra2:#9a4b2d;--sand:#c4a07a;--mut:#6b6158;--line:#e4dacb;--white:#fcfaf6;--serif:"Noto Serif TC",serif;--sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;--lat:"Cormorant Garamond",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.9;font-size:16px;letter-spacing:.03em;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}a{color:inherit}h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;line-height:1.45}p{text-wrap:pretty}
+.w{width:min(1140px,calc(100% - 48px));margin:0 auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(247,243,236,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .w{height:74px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:baseline;gap:12px;text-decoration:none}
+.brand b{font-family:var(--serif);font-size:22px;letter-spacing:.2em}.brand small{font-family:var(--lat);font-style:italic;color:var(--terra);font-size:16px}
+.links{display:flex;gap:28px;align-items:center}.links a{text-decoration:none;font-size:14.5px;letter-spacing:.12em}.links a:hover{color:var(--terra)}
+.links .cta{background:var(--ink);color:var(--bg);padding:8px 20px}.links .cta:hover{background:var(--terra);color:#fff}
+.burger{display:none;border:1px solid var(--line);background:none;width:44px;height:44px;font-size:20px;cursor:pointer}
+.hero{position:relative;min-height:calc(100vh - 74px);display:flex;align-items:center;color:var(--bg);background:#1a1816 url(img/hero.webp) center/cover no-repeat}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,16,14,.88) 0%,rgba(20,16,14,.5) 50%,rgba(20,16,14,.18) 100%)}
+.hero .w{position:relative;padding:88px 0}
+.hero .en{font-family:var(--lat);font-style:italic;color:var(--sand);font-size:22px;letter-spacing:.12em;margin:0}
+.hero h1{font-size:clamp(42px,6vw,76px);margin:6px 0 0;letter-spacing:.22em}
+.hero p{font-size:clamp(16px,1.5vw,18.5px);color:#efe4d6;max-width:520px;margin:18px 0 10px}
+.hero .hr{font-size:14.5px;color:#d9c5b0;margin:0 0 36px;letter-spacing:.1em}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:14px 28px;text-decoration:none;font-size:15px;letter-spacing:.14em;transition:.25s}
+.btn.s{background:var(--terra);color:#fff}.btn.s:hover{background:var(--terra2)}
+.btn.l{background:#06c755;color:#fff}.btn.l:hover{filter:brightness(.95)}
+.btn.w2{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}.btn.w2:hover{background:rgba(255,255,255,.1)}
+.btn.g{background:var(--ink);color:var(--bg)}.btn.g:hover{background:var(--terra);color:#fff}
+.btn.k{background:transparent;border:1px solid var(--line)}
+section{padding:92px 0}
+.sh{margin-bottom:36px}.sh h2{font-size:clamp(28px,3.2vw,36px);margin:0 0 10px;letter-spacing:.16em}
+.sh p{margin:0;color:var(--mut);max-width:640px}
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.intro .pic img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}
+.vals div{background:var(--white);border:1px solid var(--line);padding:16px 18px}
+.vals b{display:block;font-family:var(--serif);margin-bottom:4px}.vals span{color:var(--mut);font-size:15px}
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sv{background:var(--white);border:1px solid var(--line);padding:28px 24px}
+.sv h3{margin:0 0 10px;font-size:22px;letter-spacing:.1em}.sv p{margin:0;color:var(--mut);font-size:15px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.fl{padding:8px 0 0}.fl .n{font-family:var(--lat);font-style:italic;color:var(--terra);font-size:28px;margin-bottom:6px}
+.fl h3{margin:0 0 8px;font-size:20px}.fl p{margin:0;color:var(--mut);font-size:15px}
+.hrs{display:grid;grid-template-columns:1.3fr .9fr;gap:28px;align-items:start}
+table{width:100%;border-collapse:collapse;background:var(--white);font-size:14.5px}
+th,td{border:1px solid var(--line);padding:12px 8px;text-align:center}thead th{background:var(--ink);color:var(--bg);font-weight:500}
+tbody th{background:var(--bg2);font-weight:500}
+.side{background:var(--white);border:1px solid var(--line);padding:28px 24px}
+.side h3{margin:0 0 12px}.side p{margin:0 0 8px}.side .note{color:var(--mut);font-size:14.5px;margin-top:14px}
+.gal{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:12px}
+.gal img{width:100%;height:300px;object-fit:cover}
+.faq details{background:var(--white);border:1px solid var(--line);padding:0 22px;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:16px 0;font-family:var(--serif);font-size:18px;list-style:none}.faq summary::-webkit-details-marker{display:none}
+.faq details p{margin:0 0 16px;color:var(--mut)}
+.loc{display:grid;grid-template-columns:1fr 1.1fr;background:var(--white);border:1px solid var(--line)}
+.loc .tx{padding:36px 32px}dl{margin:18px 0 0}dt{color:var(--mut);font-size:13px;letter-spacing:.14em;margin-top:12px}dd{margin:2px 0 0}
+.map iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+footer{background:#1a1816;color:#efe4d6;padding:56px 0 40px;font-size:14.5px}
+.fg{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px;margin-bottom:28px}
+footer h4{font-family:var(--serif);margin:0 0 10px;letter-spacing:.16em;color:#fff}footer p,footer a{color:#d9c5b0;text-decoration:none}
+.legal{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#b7a494;font-size:13px;border-top:1px solid rgba(255,255,255,.1);padding-top:18px}.legal a{color:#e2c8b0}
+.mbar{display:none}
+@media (max-width:880px){
+ .links{display:none;position:absolute;top:74px;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 24px 24px;border-bottom:1px solid var(--line);gap:14px;align-items:flex-start}
+ .links.open{display:flex}.burger{display:block}
+ .hero h1{letter-spacing:.12em}.hero{min-height:calc(100svh - 74px)}
+ .btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hero .btns .btn:last-child{grid-column:1/-1}.btn{padding:13px 8px;letter-spacing:.08em}
+ .vals,.flow,.fg,.svcs,.intro,.hrs,.loc,.gal{grid-template-columns:1fr}
+ .intro .pic img{aspect-ratio:16/11}
+ .loc .tx{padding:28px 22px}
+ .mbar{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#1a1816}
+ .mbar a{text-align:center;padding:14px 0;text-decoration:none;font-size:14px;color:#f7f3ec}
+ .mbar a.l{background:#06c755;color:#fff}
+ footer{padding-bottom:90px}
+}
+</style>
+</head>
+<body>
+<header class="nav"><div class="w">
+ <a class="brand" href="#top"><b>弌髮廊</b><small>One Hair Salon</small></a>
+ <nav class="links" id="links"><a href="#about">沙龍簡介</a><a href="#services">服務項目</a><a href="#flow">預約流程</a><a href="#hours">營業時間</a><a href="#visit">交通資訊</a><a class="cta" href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">LINE 預約</a></nav>
+ <button class="burger" id="burger" aria-label="選單">☰</button>
+</div></header>
+
+<section class="hero" id="top"><div class="w">
+  <p class="en">One Hair Salon</p>
+  <h1>弌髮廊</h1>
+  <p>位於台中市北區青島西街，對外公開以燙髮與霧感髮色為主要服務方向。</p>
+  <p class="hr">週一至週六 11:00–20:00　·　週日 11:00–18:00　·　近中清文心捷運站</p>
+  <div class="btns">
+    <a class="btn l" href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">LINE 預約</a>
+    <a class="btn s" href="tel:+886422936878">04-2293-6878</a>
+    <a class="btn w2" href="#visit">交通位置</a>
+  </div>
+</div></section>
+
+<section id="about"><div class="w intro">
+ <div class="pic"><img src="img/chair.webp" alt="沙龍座位示意" loading="lazy"></div>
+ <div>
+  <div class="sh" style="margin-bottom:26px"><h2>沙龍簡介</h2></div>
+  <p>弌髮廊位於台中市北區青島西街 79 號，近中清文心捷運站。官方介紹以專業燙髮與霧感髮色為主要服務方向，也提供剪髮等一般美髮服務。</p>
+  <p>建議先以電話或官方 LINE 預約，並說明想做的項目與方便的時段。實際可做的造型與所需時間，會依髮況在現場溝通後決定。</p>
+  <p>店內接受現金、信用卡與 LINE Pay。出發前若時間有變，也請再與沙龍確認一次。</p>
+  <div class="vals">
+   <div><b>電話預約</b><span>04-2293-6878</span></div>
+   <div><b>官方 LINE</b><span>@has0100x</span></div>
+   <div><b>位置</b><span>台中市北區青島西街 79 號</span></div>
+   <div><b>營業日</b><span>週一至週日，週日較早結束</span></div>
+  </div>
+ </div>
+</div></section>
+
+<section id="services" style="background:var(--bg2)"><div class="w">
+ <div class="sh"><h2>服務項目</h2><p>以下依沙龍對外說明整理。個別項目是否適合、以及實際做法，都需先了解髮況後再決定。</p></div>
+ <div class="svcs">
+  <div class="sv"><h3>燙髮</h3><p>沙龍對外強調的主要服務之一。適合的燙法與所需時間，請於預約或到店時再確認。</p></div>
+  <div class="sv"><h3>霧感髮色</h3><p>以霧感方向的染髮為公開服務重點。是否需要漂色或其他前置，需視現有髮色與髮質評估。</p></div>
+  <div class="sv"><h3>剪髮與造型</h3><p>一般剪髮與吹整。到店後可先說明平時的整理習慣與想調整的地方。</p></div>
+ </div>
+</div></section>
+
+<section id="flow"><div class="w">
+ <div class="sh"><h2>預約流程</h2><p>以下為一般美髮沙龍常見的預約步驟，實際安排請依現場說明為準。</p></div>
+ <div class="flow">
+  <div class="fl"><div class="n">01</div><h3>先預約</h3><p>請打電話或透過官方 LINE 預約，並說明想做的項目與方便時段。</p></div>
+  <div class="fl"><div class="n">02</div><h3>準時到達</h3><p>請依約定時間到店。若會遲到或需要改期，請盡早告知。</p></div>
+  <div class="fl"><div class="n">03</div><h3>溝通髮況</h3><p>到店後會先了解目前髮質、過往燙染紀錄，以及這次想調整的方向。</p></div>
+  <div class="fl"><div class="n">04</div><h3>完成與後續</h3><p>服務結束後如需保養建議，可再詢問。下次預約也可透過電話或 LINE 安排。</p></div>
+ </div>
+</div></section>
+
+<section id="hours" style="background:var(--bg2)"><div class="w">
+ <div class="sh"><h2>營業時間</h2><p>以下整理自沙龍公開資訊，臨時異動請以電話或官方 LINE 確認。</p></div>
+ <div class="hrs">
+  <table>
+   <thead><tr><th></th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead>
+   <tbody>
+    <tr><th>營業</th><td>11:00–20:00</td><td>11:00–20:00</td><td>11:00–20:00</td><td>11:00–20:00</td><td>11:00–20:00</td><td>11:00–20:00</td><td>11:00–18:00</td></tr>
+   </tbody>
+  </table>
+  <div class="side">
+   <h3>預約方式</h3>
+   <p>電話：<a href="tel:+886422936878">04-2293-6878</a></p>
+   <p>官方 LINE：<a href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">@has0100x</a></p>
+   <p class="note">燙染通常需要較長時間，建議先預約再前往。收費方式與所需時間請直接向沙龍確認。</p>
+   <div class="btns" style="margin-top:22px">
+    <a class="btn l" href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">加入 LINE</a>
+    <a class="btn g" href="tel:+886422936878">立即撥打</a>
+   </div>
+  </div>
+ </div>
+</div></section>
+
+<section id="space"><div class="w">
+ <div class="sh"><h2>環境印象</h2><p>以下為氣氛示意照片，不是店內實景。實際空間請以現場為準。</p></div>
+ <div class="gal">
+  <img src="img/cut.webp" alt="剪髮工作示意" loading="lazy">
+  <img src="img/wash.webp" alt="洗髮空間示意" loading="lazy">
+  <img src="img/tools.webp" alt="美髮工具示意" loading="lazy">
+ </div>
+</div></section>
+
+<section id="faq" style="background:var(--bg2)"><div class="w">
+ <div class="sh"><h2>常見問題</h2></div>
+ <div class="faq">
+  <details><summary>要怎麼預約？</summary><p>請撥打 04-2293-6878，或加入官方 LINE @has0100x 留言預約，並說明想做的項目。</p></details>
+  <details><summary>週日有營業嗎？</summary><p>有，週日營業時間為 11:00–18:00，比平日提早結束。週一至週六為 11:00–20:00。</p></details>
+  <details><summary>怎麼到達？</summary><p>地址是台中市北區青島西街 79 號，近中清文心捷運站。詳細位置可見下方地圖。</p></details>
+  <details><summary>可以現場不預約就去嗎？</summary><p>建議先預約。尤其是燙髮或染髮通常較費時，先約好比較不會白跑一趟。</p></details>
+  <details><summary>怎麼付款？</summary><p>依公開資訊，店內可使用現金、信用卡與 LINE Pay。若有其他付款需求，請先向沙龍確認。</p></details>
+ </div>
+</div></section>
+
+<section id="visit"><div class="w">
+ <div class="loc">
+  <div class="tx">
+   <h3>交通位置</h3>
+   <dl>
+    <dt>地址</dt><dd>台中市北區青島西街 79 號</dd>
+    <dt>電話</dt><dd><a href="tel:+886422936878">04-2293-6878</a></dd>
+    <dt>官方 LINE</dt><dd><a href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">@has0100x</a></dd>
+    <dt>捷運</dt><dd>近中清文心捷運站，沿青島西街步行可達</dd>
+   </dl>
+   <div class="btns" style="margin-top:10px">
+    <a class="btn g" href="https://www.google.com/maps/search/?api=1&query=弌髮廊+台中市北區青島西街79號" target="_blank" rel="noopener">開啟地圖</a>
+    <a class="btn k" href="tel:+886422936878">電話洽詢</a>
+   </div>
+  </div>
+  <div class="map"><iframe loading="lazy" title="弌髮廊地圖" src="https://www.google.com/maps?q=台中市北區青島西街79號&z=16&hl=zh-TW&output=embed"></iframe></div>
+ </div>
+</div></section>
+
+<footer><div class="w">
+ <div class="fg">
+  <div><h4>弌髮廊</h4><p>One Hair Salon<br>台中市北區青島西街 79 號<br>電話 04-2293-6878<br>官方 LINE @has0100x</p></div>
+  <div><h4>營業時間</h4><p>週一至週六 11:00–20:00<br>週日 11:00–18:00</p></div>
+  <div><h4>網站導覽</h4><p><a href="#services">服務項目</a>　<a href="#flow">預約流程</a><br><a href="#hours">營業時間</a>　<a href="#faq">常見問題</a><br><a href="#visit">交通資訊</a></p></div>
+ </div>
+ <div class="legal"><span>© 弌髮廊 One Hair Salon</span><span><a href="https://kova.tw">此為 Kova 提案示範網站</a> · 照片 Unsplash（氣氛示意，非店內實景）</span></div>
+</div></footer>
+<div class="mbar"><a href="tel:+886422936878">撥打電話</a><a class="l" href="https://line.me/R/ti/p/@has0100x" target="_blank" rel="noopener">LINE 預約</a><a href="#hours">營業時間</a></div>
+<script>
+const links=document.getElementById('links');document.getElementById('burger').onclick=()=>links.classList.toggle('open');
+links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+</script>
+</body>
+</html>
